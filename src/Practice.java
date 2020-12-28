@@ -14,6 +14,7 @@ public class Practice {
 
 	public static void main(String[] args) 
 	{
+		int b=0;
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pranav Chavan\\Desktop\\chromedriver.exe");	
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
